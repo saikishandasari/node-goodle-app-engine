@@ -1,0 +1,31 @@
+{
+  "name": "node-goodle-app-engine",
+  "version": "1.0.0",
+  "description": "Sample node application deployed on Google App Engine",
+  "main": "server.js",
+  "engines": {
+    "node": "6.11.0"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikishandasari/node-goodle-app-engine.git"
+  },
+  "keywords": [
+    "Node",
+    "Google App Engine"
+  ],
+  "author": "Sai Kishan Dasari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saikishandasari/node-goodle-app-engine/issues"
+  },
+  "homepage": "https://github.com/saikishandasari/node-goodle-app-engine#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3"
+  }
+}
